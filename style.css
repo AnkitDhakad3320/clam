@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* text-align: center; */
+}
+
+body{
+    /* text-align: center; */
+    /* height: 100%; */
+    /* width: 100%; */
+    background-color: #fff;
+}
+
+header{
+    /* height: 10%; */
+    /* width: 80%; */
+    margin:0px 10%;
+}
+
+main{
+    /* height: 50%; */
+    /* width: 80%; */
+    margin:0% 10%;
+    display: flex;
+}
+
+.head-nav{
+    display: flex;
+    padding:  20px 20px 20px 0px;
+}
+
+.header{
+    display: flex;
+}
+
+.logo{
+    padding-right: 10%;
+}
+
+.logo-image{
+    height:20px;
+    width:25px;
+    /* padding: 20%; */
+    background-color: #52d685;
+    border-radius: 50%;
+}
+
+.logo-text{
+    padding-right:10%;
+    /* max-width: 100%; */
+    /* min-width:fit-content; */
+    font-size: 20px;
+    font-weight:900;
+}
+
+.nav-bar{
+    width: 100%;
+}
+
+.nav{
+    /* width: fit-content; */
+    padding-right:5%;
+}
+
+.left-main{
+    width: 50%;
+    /* padding-top: 20%; */
+    align-content: center;
+} 
+
+.right-main{
+    width: 50%;
+    align-content: center;
+    /* padding-top: 10%; */
+}
+
+
+.main-head{
+    font-weight: 600;
+    font-size:30px;
+}
+
+.main-para{
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+button{
+    color: #fff;
+    border: none;
+    padding: 10px;
+    background-color: #52d685;
+    border-radius: 15px;
+}
+
+
+.main-image{
+    /* width: 80%; */
+    /* padding: 10%; */
+    /* margin: 10%; */
+}
+
+.main-image div{
+    float:left;
+}
+ 
+.image{
+    padding: 5px;
+    overflow: hidden;
+    width: 150px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.image3{
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 200px;
+    height: 150px;
+}
+
+@media screen and ( min-width:768px)
+{
+
+.main-image{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10%;
+    margin: 10%;
+}
+ 
+.image{
+    overflow: hidden;
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.image3{
+    overflow: hidden;
+    border-radius: 10%;
+    width: 300px;
+    height: 200px;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+} 
+
+}
